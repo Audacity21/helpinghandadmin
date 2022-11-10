@@ -16,14 +16,14 @@ const Login = () => {
   const handleLogin = () => {
     if(username === 'admin' && password === 'admin') {
       localStorage.setItem('isAuthenticated', true);
-      history.push('/dashboard');
+      history.push('/addproduct');
     } else {
       alert('Login failed');
     }
   }
 
   if(isAuthenticated === "true") {
-    history.push('/dashboard');
+    history.push('/addproduct');
   } else{
     return (
       <>

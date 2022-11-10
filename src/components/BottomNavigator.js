@@ -20,8 +20,8 @@ export default function SimpleBottomNavigation() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Add Product" icon={<AddCircleOutlineIcon />} component={Link} to="/" />
-        <BottomNavigationAction label="View Products" icon={<PreviewIcon />} />
+        <BottomNavigationAction label="Add Product" icon={<AddCircleOutlineIcon />} component={Link} to="/addproduct" />
+        <BottomNavigationAction label="View Products" icon={<PreviewIcon />}  component={Link} to="/viewproduct"/>
         <BottomNavigationAction label="View Orders" icon={<ShoppingCartIcon />} />
       </BottomNavigation>
     </Box>

@@ -1,0 +1,10 @@
+.vp-container{
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden ;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 50px 100px;
+    align-items: center;
+    justify-content: center;
+}
