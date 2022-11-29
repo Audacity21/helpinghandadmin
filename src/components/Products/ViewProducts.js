@@ -27,7 +27,9 @@ const ViewProducts = () => {
           <div className='vp-container'>
             {products.map((product, index) => { 
               return (
-                   <Card {...product}/>
+                   <>
+                    <Card {...product}/>
+                   </>
                 );
               })}
           </div>
